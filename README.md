@@ -85,61 +85,26 @@ for chave, valor in resultado.items():
     print(f"{chave}: {valor}")
 
 
-👥 Cenário 2 — Idades dos amigos
+## 👥 Cenário 2 — Idades dos amigos
 
 Dados:
 25, 28, 30, 32, 35, 40
 
-📌 Resultados esperados
+## 📌 Resultados esperados
 
-Média:
+Média: (25 + 28 + 30 + 32 + 35 + 40) / 6 = 31,67 
 
-(
-25
-+
-28
-+
-30
-+
-32
-+
-35
-+
-40
-)
-/
-6
-=
-31
-,
-67
 (25+28+30+32+35+40)/6=31,67
 
-Mediana:
-Valores ordenados: 25, 28, 30, 32, 35, 40
-Como são 6 valores, a mediana é a média entre o 3º e 4º:
+Mediana: Valores ordenados: 25, 28, 30, 32, 35, 40
+Como são 6 valores, a mediana é a média entre o 3º e 4º: (30 + 32 ) / 2 = 31
 
-(
-30
-+
-32
-)
-/
-2
-=
-31
 (30+32)/2=31
 
-Moda:
-Não existe moda, pois nenhum valor se repete.
+Moda: Não existe moda, pois nenhum valor se repete.
 
-Amplitude:
+Amplitude: 40 − 25 = 15
 
-40
-−
-25
-=
-15
 40−25=15
 
 ✔ Código Python do exercício das idades
@@ -154,7 +119,7 @@ except:
 
 print("Amplitude:", max(idades) - min(idades))
 
-📌 Conclusão
+## 📌 Conclusão
 
 Este repositório demonstra como aplicar estatística básica usando Python de maneira simples, clara e adequada para estudantes, iniciantes e projetos acadêmicos.
 Você pode reutilizar os scripts para qualquer conjunto de dados — basta inserir os valores desejados.
