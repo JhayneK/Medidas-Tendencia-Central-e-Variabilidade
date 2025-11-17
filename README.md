@@ -25,6 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Este repositório apresenta cálculos estatísticos básicos aplicados em dois cenários:
 
 1 - Uma confeitaria que mede o tempo de entrega (min) e a temperatura (°C) na chegada do produto.
+
 2 - Um exercício simples usando as idades de seis amigos para demonstrar média, mediana, moda e amplitude.
 
 Todos os cálculos são feitos em Python de forma simples e clara, incluindo a possibilidade de entrada manual via input().
